@@ -1,0 +1,8 @@
+﻿namespace Zadanie9.DTOs;
+
+public class PatientDto
+{
+    public string FirstName { get; set; } = string.Empty;
+    public string LastName { get; set; } = string.Empty;
+    public DateTime Birthdate { get; set; }
+}
